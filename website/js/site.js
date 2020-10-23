@@ -227,11 +227,11 @@ $(document).ready(function () {
     };
 
     // display timezone sidebar
-    showTimezoneClock.onclick = function () {
-        $(this).toggleClass('active');
-        $(body).toggleClass('fxs_push_timezone');
-        $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
-    };
+    // showTimezoneClock.onclick = function () {
+    //     $(this).toggleClass('active');
+    //     $(body).toggleClass('fxs_push_timezone');
+    //     $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
+    // };
 
     // close all, timezone and sidebar
     close_timezone_sidebar.onclick = function(){
