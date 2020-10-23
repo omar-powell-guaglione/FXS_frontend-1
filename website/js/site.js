@@ -200,7 +200,7 @@ $(document).ready(function () {
         listView = document.getElementById('cbp-spmenu-s3'),
         showLeftPush = document.getElementById('showLeftPush'),
         showRightPush = document.getElementById('showRightPush'),
-        showTimezoneClock = document.getElementById('showTimezoneClock'), // add
+        // showTimezoneClock = document.getElementById('showTimezoneClock'), // add
         close_timezone_sidebar = document.getElementById('close_timezone_sidebar'), // add
         showLeft = document.getElementById('showLeft'),
         body = document.body;
