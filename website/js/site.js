@@ -231,7 +231,7 @@ $(document).ready(function () {
         $(this).toggleClass('active');
         $(body).toggleClass('fxs_push_timezone');
         $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
-    };
+    }
 
     // close all, timezone and sidebar
     close_timezone_sidebar.onclick = function(){
