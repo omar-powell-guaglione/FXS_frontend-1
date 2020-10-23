@@ -227,20 +227,20 @@ $(document).ready(function () {
     };
 
     // display timezone sidebar
-    showTimezoneClock.onclick = function () {
-        $(this).toggleClass('active');
-        $(body).toggleClass('fxs_push_timezone');
-        $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
-    };
+    // showTimezoneClock.onclick = function () {
+    //     $(this).toggleClass('active');
+    //     $(body).toggleClass('fxs_push_timezone');
+    //     $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
+    // };
 
     // close all, timezone and sidebar
-    close_timezone_sidebar.onclick = function(){
-        $(showTimezoneClock).removeClass('active');
-        $(body).removeClass('fxs_push_timezone');
-        $(itemsTimezone).removeClass('fxs_show_timezoneHours');
-        //$(body).removeClass('fxs_push_timezone');
-        //disableOther('close_timezone_sidebar');
-    }
+    // close_timezone_sidebar.onclick = function(){
+    //     $(showTimezoneClock).removeClass('active');
+    //     $(body).removeClass('fxs_push_timezone');
+    //     $(itemsTimezone).removeClass('fxs_show_timezoneHours');
+    //     //$(body).removeClass('fxs_push_timezone');
+    //     //disableOther('close_timezone_sidebar');
+    // }
 
     showLeft.onclick = function () {
         $(this).toggleClass('active');
@@ -410,12 +410,12 @@ $(document).ready(function () {
 'use strict';
 /* global instantsearch */
 
-var search = instantsearch({
-    appId: '50DEV6P9K0',
-    apiKey: '3805ad29c0e7ea0077d1acab07993f62',
-    indexName: 'FxsIndexQa',
-    urlSync: true
-});
+// var search = instantsearch({
+//     appId: '50DEV6P9K0',
+//     apiKey: '3805ad29c0e7ea0077d1acab07993f62',
+//     indexName: 'FxsIndexQa',
+//     urlSync: true
+// });
 
 search.addWidget(
   instantsearch.widgets.searchBox({
