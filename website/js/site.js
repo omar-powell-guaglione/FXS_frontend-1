@@ -226,12 +226,12 @@ $(document).ready(function () {
         disableOther('showRightPush');
     };
 
-    // display timezone sidebar
-    // showTimezoneClock.onclick = function () {
-    //     $(this).toggleClass('active');
-    //     $(body).toggleClass('fxs_push_timezone');
-    //     $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
-    // };
+    display timezone sidebar
+    showTimezoneClock.onclick = function () {
+        $(this).toggleClass('active');
+        $(body).toggleClass('fxs_push_timezone');
+        $(itemsTimezone).toggleClass('fxs_show_timezoneHours');
+    };
 
     // close all, timezone and sidebar
     close_timezone_sidebar.onclick = function(){
