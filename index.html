@@ -7209,7 +7209,12 @@
     <!-- /Modal -->
 
     <!-- ****************Scripts***************** -->
-    
+    <script>
+      Sentry.onLoad(function() {
+        // Use whatever Sentry.* function you want
+      });
+      Sentry.forceLoad();
+    </script>
     
 
     <script src="website/js/jquery-1.11.3.min.js"></script>
